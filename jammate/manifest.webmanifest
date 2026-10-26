@@ -1,0 +1,16 @@
+{
+  "name": "JamMate 跟弹伴奏",
+  "short_name": "JamMate",
+  "description": "面向吉他手的实时跟随伴奏：自动生成风格 loop、变速变调、和弦谱、AB 循环与节拍器。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0c10",
+  "theme_color": "#0b0c10",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

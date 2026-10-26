@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b0c10" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="JamMate" />
+<meta name="description" content="面向吉他手的实时跟随伴奏：自动生成风格 loop、变速变调、和弦谱、AB 循环与节拍器。" />
+<title>JamMate 跟弹 · 吉他伴奏</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0c10'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%23f2a33c' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23f2a33c'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">J</span>
+      <div class="brand-text"><strong>JamMate</strong><small>跟弹伴奏</small></div>
+    </div>
+    <button class="icon-btn" id="btnHelp" aria-label="使用说明">?</button>
+  </header>
+
+  <main class="stack">
+    <section class="card">
+      <div class="card-head">
+        <h2>伴奏风格</h2>
+        <span class="pill" id="styleBpm">92 BPM · 4/4</span>
+      </div>
+      <div class="chips" id="styleChips"></div>
+      <p class="meta" id="styleMeta"></p>
+    </section>
+
+    <section class="card chart-card">
+      <div class="card-head">
+        <h2>和弦谱<span class="sub" id="progName"></span></h2>
+        <div class="loop-actions">
+          <button class="mini" id="btnSetA" aria-label="将选中小节设为 A">设 A</button>
+          <button class="mini" id="btnSetB" aria-label="将选中小节设为 B">设 B</button>
+        </div>
+      </div>
+      <div class="chart" id="chart"></div>
+      <div class="chart-foot">
+        <span class="loop-info" id="loopInfo">循环：未设置</span>
+        <button class="mini ghost" id="btnClearLoop">清除循环</button>
+      </div>
+    </section>
+
+    <section class="card control-card">
+      <div class="ctrl-col">
+        <span class="ctrl-label">速度</span>
+        <div class="stepper">
+          <button class="step" id="bpmDown" aria-label="降低速度">−</button>
+          <div class="value"><b id="bpmVal">92</b><i>BPM</i></div>
+          <button class="step" id="bpmUp" aria-label="提高速度">＋</button>
+        </div>
+        <button class="tap" id="tapTempo">TAP 拍速</button>
+      </div>
+      <div class="divider"></div>
+      <div class="ctrl-col">
+        <span class="ctrl-label">调</span>
+        <div class="stepper">
+          <button class="step" id="keyDown" aria-label="降调">♭</button>
+          <div class="value"><b id="keyVal">C</b><i id="modeVal">大调</i></div>
+          <button class="step" id="keyUp" aria-label="升调">♯</button>
+        </div>
+        <div class="mini-toggles">
+          <button class="toggle on" id="metroBtn">节拍器</button>
+          <button class="toggle on" id="countInBtn">预备拍</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card follow-card">
+      <div class="card-head">
+        <h2>跟随你的演奏</h2>
+        <button class="toggle" id="followBtn"><span class="dot"></span>开启麦克风</button>
+      </div>
+      <p class="hint">戴耳机效果最好。麦克风听到你的吉他后，伴奏会自动跟上你的速度和力度；你停，它也收。</p>
+      <div class="meters">
+        <div class="meter">
+          <div class="meter-head"><span>捕捉速度</span><b id="detBpm">—</b></div>
+          <div class="track"><div class="fill" id="confBar"></div></div>
+        </div>
+        <div class="meter">
+          <div class="meter-head"><span>演奏力度</span><b id="lvlVal">0%</b></div>
+          <div class="track"><div class="fill teal" id="levelBar"></div></div>
+        </div>
+      </div>
+      <div class="follow-opts">
+        <label class="switch-row"><span>跟随速度</span><input type="checkbox" id="autoTempo" checked /></label>
+        <label class="switch-row"><span>跟随力度层次</span><input type="checkbox" id="autoLevel" checked /></label>
+        <label class="range-row"><span>灵敏度</span><input type="range" id="sens" min="1" max="10" step="1" value="6" /></label>
+      </div>
+      <p class="fineprint">麦克风需要 HTTPS 或 localhost 环境；如果无法开启，请检查浏览器权限。</p>
+    </section>
+  </main>
+
+  <footer class="dock">
+    <div class="dock-inner">
+      <div class="dock-info">
+        <b id="dockChord">C</b>
+        <small id="dockPos">第 1 小节 · 第 1 拍</small>
+      </div>
+      <button class="play" id="playBtn" aria-label="播放">
+        <svg id="iconPlay" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.2v13.6L19 12z" /></svg>
+        <svg id="iconPause" class="hidden" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="4" height="14" rx="1.2" /><rect x="13.5" y="5" width="4" height="14" rx="1.2" /></svg>
+      </button>
+      <button class="loop-btn" id="loopBtn" aria-label="循环开关">循环</button>
+    </div>
+  </footer>
+</div>
+
+<div class="sheet-backdrop" id="helpBackdrop" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+    <div class="sheet-grab"></div>
+    <h3 id="helpTitle">怎么用</h3>
+    <ul class="help-list">
+      <li><b>选风格</b>：伴奏由程序实时生成鼓、贝斯和和弦，每个风格自带速度与和弦进行。</li>
+      <li><b>变速变调</b>：改变 BPM 不会变调，改变调性不会变速，随你练。</li>
+      <li><b>设 A / B</b>：点一个和弦小节选中它，再点「设 A」「设 B」，这段就会循环。</li>
+      <li><b>跟随演奏</b>：开启麦克风，弹几个音，软件会捕捉你的律动并调整伴奏速度与层次。</li>
+      <li><b>节拍器 / 预备拍</b>：预备拍会给一小节 Click，再进入伴奏。</li>
+    </ul>
+    <div class="help-tip">
+      <b>手机使用</b>
+      <p>用手机浏览器打开后，选择「添加到主屏幕」，即可全屏像 App 一样使用。麦克风跟随在 HTTPS 或 localhost 下可用，练习时建议戴耳机避免伴奏串音。</p>
+    </div>
+    <button class="primary" id="helpClose">开始练习</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="theory.js"></script>
+<script src="audio-engine.js"></script>
+<script src="follow.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
