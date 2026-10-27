@@ -1,0 +1,34 @@
+VST3 SDK not found in source tree, attempting to clone...
+Building from crates.io - will clone VST3 SDK to OUT_DIR: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk
+Cloning VST3 SDK to /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk'...
+Submodule 'base' (https://github.com/steinbergmedia/vst3_base) registered for path 'base'
+Submodule 'cmake' (https://github.com/steinbergmedia/vst3_cmake) registered for path 'cmake'
+Submodule 'doc' (https://github.com/steinbergmedia/vst3_doc) registered for path 'doc'
+Submodule 'pluginterfaces' (https://github.com/steinbergmedia/vst3_pluginterfaces) registered for path 'pluginterfaces'
+Submodule 'public.sdk' (https://github.com/steinbergmedia/vst3_public_sdk) registered for path 'public.sdk'
+Submodule 'tutorials' (https://github.com/steinbergmedia/vst3_tutorials) registered for path 'tutorials'
+Submodule 'vstgui4' (https://github.com/steinbergmedia/vstgui) registered for path 'vstgui4'
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/base'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/cmake'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/doc'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/tutorials'...
+Cloning into '/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/vstgui4'...
+From https://github.com/steinbergmedia/vstgui
+ * branch              5db272256172557818b6158cf0bb2c4410bddb25 -> FETCH_HEAD
+VST3 SDK cloned successfully to /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk
+Configuring CMake with VST3 SDK at: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk
+running: cd "/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/rack-sys" "-B" "/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/build" "-DCMAKE_BUILD_TYPE=Release" "-DBUILD_TESTS=OFF" "-DVST3_SDK_PATH=/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk" "-DCMAKE_INSTALL_PREFIX=/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64 -w" "-DCMAKE_ASM_COMPILER=/usr/bin/cc"
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_FLAGS
+    CMAKE_C_COMPILER
+    CMAKE_C_FLAGS
+
+
+running: cd "/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/build" && LC_ALL="C" MAKEFLAGS="-j --jobserver-fds=9,11 --jobserver-auth=9,11" "cmake" "--build" "/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/build" "--target" "install" "--config" "Debug"
+Building rack-sys for target: x86_64-unknown-linux-gnu (linux)

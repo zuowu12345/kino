@@ -1,0 +1,11 @@
+/workspace/jammate-tauri/target/debug/deps/env_logger-a9697749d00aa615.d: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/logger.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/buffer.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/target.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/humantime.rs
+
+/workspace/jammate-tauri/target/debug/deps/libenv_logger-a9697749d00aa615.rmeta: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/logger.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/buffer.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/target.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/humantime.rs
+
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/lib.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/logger.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/mod.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/buffer.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/writer/target.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/mod.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/env_logger-0.11.11/src/fmt/humantime.rs:

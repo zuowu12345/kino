@@ -1,0 +1,70 @@
+cargo::rustc-check-cfg=cfg(vst3_sdk)
+Submodule path 'base': checked out 'fcf9da0bd27a16f7f03773a3a39822f28f5c8477'
+Submodule path 'cmake': checked out '054c9143cbb8d47fc4694e473f2ee3b4d951a8f5'
+Submodule path 'doc': checked out '8bfca19d3b76a61d093951ba9297047f544caea1'
+Submodule path 'pluginterfaces': checked out '4f547e8e102b47de4a8b8aaf343c73b700786372'
+Submodule path 'public.sdk': checked out '586dc5e6c8012c3e4b01c79389375cbe96bdb1da'
+Submodule path 'tutorials': checked out '33b73dfbb87f3fde3bce8c0a10cae934dc66ad34'
+Submodule path 'vstgui4': checked out '5db272256172557818b6158cf0bb2c4410bddb25'
+cargo:rustc-cfg=vst3_sdk
+CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-unknown-linux-gnu = None
+CMAKE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE = None
+CMAKE = None
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- VST3 SDK path: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk
+-- VST3 SDK found at /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/build
+[ 11%] Building CXX object CMakeFiles/rack_sys.dir/src/vst3_scanner.cpp.o
+[ 11%] Building CXX object CMakeFiles/rack_sys.dir/src/vst3_instance.cpp.o
+[ 16%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commoniids.cpp.o
+[ 22%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/funknown.cpp.o
+[ 27%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/coreiids.cpp.o
+[ 33%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commonstringconvert.cpp.o
+[ 38%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/vstinitiids.cpp.o
+[ 44%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp.o
+[ 50%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module.cpp.o
+[ 55%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/plugprovider.cpp.o
+[ 61%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp.o
+[ 66%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp.o
+[ 72%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp.o
+[ 77%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp.o
+[ 83%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp.o
+[ 88%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp.o
+[ 94%] Building CXX object CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module_linux.cpp.o
+[100%] Linking CXX static library librack_sys.a
+[100%] Built target rack_sys
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/lib/librack_sys.a
+-- Installing: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/include
+-- Installing: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/include/rack_vst3.h
+-- Installing: /workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/include/rack_au.h
+cargo:root=/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out
+cargo:rustc-link-search=native=/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/lib
+cargo:rustc-link-lib=static=rack_sys
+cargo:rustc-link-lib=stdc++
+cargo:rustc-link-lib=dl
+cargo:rerun-if-changed=rack-sys/src
+cargo:rerun-if-changed=rack-sys/include
+cargo:rerun-if-changed=rack-sys/CMakeLists.txt
+cargo:rerun-if-changed=rack-sys/external/vst3sdk

@@ -1,0 +1,3 @@
+[workspace]
+members = ["jammate-host", "src-tauri"]
+resolver = "2"

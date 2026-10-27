@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rack_sys.dir/src/vst3_instance.cpp.o"
+  "CMakeFiles/rack_sys.dir/src/vst3_instance.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/src/vst3_scanner.cpp.o"
+  "CMakeFiles/rack_sys.dir/src/vst3_scanner.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/coreiids.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/coreiids.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/funknown.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/pluginterfaces/base/funknown.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commoniids.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commoniids.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commonstringconvert.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/common/commonstringconvert.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module_linux.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/module_linux.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/plugprovider.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/plugprovider.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp.o.d"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/vstinitiids.cpp.o"
+  "CMakeFiles/rack_sys.dir/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/vst3sdk/public.sdk/source/vst/vstinitiids.cpp.o.d"
+  "librack_sys.a"
+  "librack_sys.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rack_sys.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,14 @@
+/workspace/jammate-tauri/target/debug/deps/rack-cd5e1e9d31cec015.d: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/error.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/midi.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/plugin_info.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/traits.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/ffi.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/util.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/scanner.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/instance.rs
+
+/workspace/jammate-tauri/target/debug/deps/librack-cd5e1e9d31cec015.rmeta: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/error.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/midi.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/plugin_info.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/traits.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/ffi.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/util.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/scanner.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/instance.rs
+
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/lib.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/error.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/midi.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/plugin_info.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/traits.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/mod.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/ffi.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/util.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/scanner.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/rack-0.4.8/src/vst3/instance.rs:

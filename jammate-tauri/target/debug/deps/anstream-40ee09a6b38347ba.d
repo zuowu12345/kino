@@ -1,0 +1,14 @@
+/workspace/jammate-tauri/target/debug/deps/anstream-40ee09a6b38347ba.d: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/strip.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/wincon.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/stream.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/_macros.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/auto.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/buffer.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/fmt.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/strip.rs
+
+/workspace/jammate-tauri/target/debug/deps/libanstream-40ee09a6b38347ba.rmeta: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/mod.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/strip.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/wincon.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/stream.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/_macros.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/auto.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/buffer.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/fmt.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/strip.rs
+
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/lib.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/mod.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/strip.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/adapter/wincon.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/stream.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/_macros.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/auto.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/buffer.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/fmt.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/anstream-1.0.0/src/strip.rs:

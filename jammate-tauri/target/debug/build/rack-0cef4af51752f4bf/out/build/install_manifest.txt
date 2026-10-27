@@ -1,0 +1,3 @@
+/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/lib/librack_sys.a
+/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/include/rack_vst3.h
+/workspace/jammate-tauri/target/debug/build/rack-0cef4af51752f4bf/out/include/rack_au.h
