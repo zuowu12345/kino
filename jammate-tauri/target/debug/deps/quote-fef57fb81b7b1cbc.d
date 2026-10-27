@@ -1,0 +1,13 @@
+/workspace/jammate-tauri/target/debug/deps/quote-fef57fb81b7b1cbc.d: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ext.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/format.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/to_tokens.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/runtime.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/spanned.rs
+
+/workspace/jammate-tauri/target/debug/deps/libquote-fef57fb81b7b1cbc.rlib: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ext.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/format.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/to_tokens.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/runtime.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/spanned.rs
+
+/workspace/jammate-tauri/target/debug/deps/libquote-fef57fb81b7b1cbc.rmeta: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ext.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/format.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ident_fragment.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/to_tokens.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/runtime.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/spanned.rs
+
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/lib.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ext.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/format.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/ident_fragment.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/to_tokens.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/runtime.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/quote-1.0.47/src/spanned.rs:

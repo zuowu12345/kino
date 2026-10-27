@@ -105,7 +105,7 @@ impl Host {
         }
 
         let (event_tx, event_rx) = bounded::<Event>(256);
-        let (chord_tx, chord_rx) = bounded::<chroma::Detection>(16);
+        let det_event_tx = event_tx.clone();
         let (sample_tx, sample_rx) = bounded::<f32>(8192);
         let (input_tx, input_rx): (Sender<f32>, Receiver<f32>) = bounded(16384);
 
@@ -123,7 +123,6 @@ impl Host {
             looper: Mutex::new(looper::Looper::default()),
             plugin: Mutex::new(None),
             event_tx,
-            chord_rx: Mutex::new(chord_rx),
         });
 
         // Input callback: push interleaved samples to output queue and detector
@@ -150,21 +149,19 @@ impl Host {
             let mut last_l = 0.0f32;
             let mut idx = 0usize;
             while let Ok(s) = sample_rx.recv() {
-                if input_channels == 1 {
-                    if let Some(d) = analyzer.push(s) {
-                        let _ = chord_tx.try_send(d);
-                    }
+                let detection = if input_channels == 1 {
+                    analyzer.push(s)
+                } else if idx % 2 == 0 {
+                    last_l = s;
+                    None
                 } else {
-                    if idx % 2 == 0 {
-                        last_l = s;
-                    } else {
-                        let mono = (last_l + s) * 0.5;
-                        if let Some(d) = analyzer.push(mono) {
-                            let _ = chord_tx.try_send(d);
-                        }
-                    }
-                    idx += 1;
+                    let mono = (last_l + s) * 0.5;
+                    analyzer.push(mono)
+                };
+                if let Some(d) = detection {
+                    let _ = det_event_tx.try_send(Event::Chord(d));
                 }
+                idx += 1;
             }
         });
 
@@ -193,17 +190,10 @@ impl Host {
         input_stream.play()?;
         output_stream.play()?;
 
-        // Event forwarding thread (for non-Tauri consumers)
-        let event_forward = shared.clone();
-        thread::spawn(move || {
-            while let Ok(ev) = event_rx.recv() {
-                let _ = event_forward.event_tx.try_send(ev);
-            }
-        });
-
         Ok((
             Self {
                 shared,
+                event_rx,
                 _detector: detector,
             },
             Streams {
@@ -288,20 +278,14 @@ impl Host {
         self.shared.plugin_bypass.store(bypass, Ordering::Relaxed);
     }
 
+    /// Clone the event receiver so a background thread can pull events.
     pub fn events(&self) -> Receiver<Event> {
-        // The event_tx in Shared is the sender; we can't easily clone receiver.
-        // Instead expose a helper that polls the shared chord receiver and synthesizes events.
-        // For Tauri integration, a dedicated event-polling thread should be used.
-        let (_tx, rx) = bounded(1);
-        rx
+        self.event_rx.clone()
     }
 
+    /// Non-blocking event poll.
     pub fn try_event(&self) -> Option<Event> {
-        // transport event generation is handled in audio thread; pull chord events here
-        if let Ok(det) = self.shared.chord_rx.lock().unwrap().try_recv() {
-            return Some(Event::Chord(det));
-        }
-        None
+        self.event_rx.try_recv().ok()
     }
 }
 

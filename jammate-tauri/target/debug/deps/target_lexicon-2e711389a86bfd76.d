@@ -1,0 +1,15 @@
+/workspace/jammate-tauri/target/debug/deps/target_lexicon-2e711389a86bfd76.d: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/data_model.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/host.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/parse_error.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/targets.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/triple.rs /workspace/jammate-tauri/target/debug/build/target-lexicon-b5f427365cba1873/out/host.rs
+
+/workspace/jammate-tauri/target/debug/deps/libtarget_lexicon-2e711389a86bfd76.rlib: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/data_model.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/host.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/parse_error.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/targets.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/triple.rs /workspace/jammate-tauri/target/debug/build/target-lexicon-b5f427365cba1873/out/host.rs
+
+/workspace/jammate-tauri/target/debug/deps/libtarget_lexicon-2e711389a86bfd76.rmeta: /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/lib.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/data_model.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/host.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/parse_error.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/targets.rs /root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/triple.rs /workspace/jammate-tauri/target/debug/build/target-lexicon-b5f427365cba1873/out/host.rs
+
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/lib.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/data_model.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/host.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/parse_error.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/targets.rs:
+/root/.cargo/registry/src/mirrors.aliyun.com-0671735e7cc7f5e7/target-lexicon-0.12.16/src/triple.rs:
+/workspace/jammate-tauri/target/debug/build/target-lexicon-b5f427365cba1873/out/host.rs:
+
+# env-dep:OUT_DIR=/workspace/jammate-tauri/target/debug/build/target-lexicon-b5f427365cba1873/out
